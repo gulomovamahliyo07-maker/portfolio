@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../../css/loyiha/sign.css">
+</head>
+<style>
+    body{
+        background-image: url(https://img.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame_1339-6363.jpg);
+        background-repeat: no-repeat; 
+        background-size: cover; 
+
+    }
+    h1{
+        color:red;
+        font-size: 20px ; 
+        text-align: center;   
+    }
+    h2{
+        color:red;
+        font-size:12px
+    }
+    button{
+        color:rgb(74, 28, 191);
+        background-color: rgb(198, 248, 231);
+        border-radius: 50px;
+        width:120px;
+        border:2px solid red;
+        font-size:20px;
+    } 
+    button:hover{
+        background-color:aquamarine;
+    }
+</style>
+<body>
+
+  <div class="box">
+    <div class="container"> 
+        <h1>Ma'lumotlaringizni kiriting:</h1>
+        <br>
+    
+        <form action="">
+    
+        <label for="ism"><h2>To'liq ism : </h2></label>
+        <input type="text" id="ism" name="ism" placeholder="F.I.O"  minlength="3" required>
+    
+    
+        <label for="sana"><h2>Tug'ilgan sana : </h2></label>
+        <input type="date" id="sana" name="sana" placeholder="oy.kun.yil" required>
+    
+    <br>
+    <br>
+        
+    <label for="email"><h2>Elektron pochta :</h2></label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        <br>
+        <br>
+    
+        <label for="rasm"><h2>Rasmingizni yuklang :</h2></label>
+        <input type="file" name="email" id="email">
+    
+        <label for="viloyat"><h2>Viloyatingizni tanlang : </h2> </label>
+        <select name="viloyat" id="viloyat">
+            <option value=""disabled selected>Tanlang</option>
+            <option value="samarqand">Samarqand</option>
+            <option value="toshkent">Toshkent</option>
+            <option value="navoiy">Navoiy</option>
+            <option value="andijon">Andijon</option>
+        </select>
+    
+        <br>
+        <br>
+    
+        <label for="bio"><h2>Fikr-mulohaza : </h2></label>
+        <textarea name="bio" id="bio">...</textarea>
+    
+        <br>
+        <br>
+        <button type="reset">Tozalash</button>
+        <button type="submit">Yuborish</button>
+                <br>
+                <br>
+        
+                
+    </div>
+  </div>  
+   
+
+       
+
+
+
+    </form>
+</body>
+</html>

@@ -70,6 +70,7 @@ p
 }
 img
 {
+    border:2px solid blueviolet;
     width:90%;
     border-radius:50%;
     box-shadow: 7px 6px 10px 10px rgb(213, 173, 251);
@@ -98,4 +99,12 @@ footer ul {
 a{
     color:white;
 
+}
+.aloqa{
+    display:flex;
+    margin:20px;
+    gap:50px;
+}
+footer{
+    justify-content: left;
 }
