@@ -100,11 +100,47 @@ a{
     color:white;
 
 }
-.aloqa{
-    display:flex;
+
+.net{
+    
     margin:20px;
     gap:50px;
 }
 footer{
     justify-content: left;
 }
+.net{
+display:flex;
+}
+
+.icon {
+    background: none;
+  }
+button {
+    background: none;
+    border: none;
+    cursor:pointer;
+  }
+  .net-aloqa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .net i{
+    margin-right: 10px;
+    padding:20px;
+    font-size:40px;
+    display:inline-block;
+    border-radius:50%;
+    transition:0.3s;
+  }
+  
+  .net i:hover{
+    background-color:rgb(181, 113, 244);
+    color:white;
+  }
+  
+  .aloqa i{
+    margin-left: 15px;
+  }
